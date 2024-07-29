@@ -107,6 +107,7 @@
 		18601F732C581896008651D3 /* ProtocolOriented */ = {
 			isa = PBXGroup;
 			children = (
+				18601FB12C583C8E008651D3 /* Service */,
 				18601FB02C583B62008651D3 /* View */,
 				18601FA52C5819C3008651D3 /* Model */,
 				18601FA42C5819AC008651D3 /* ViewModel */,
@@ -139,7 +140,6 @@
 		18601FA42C5819AC008651D3 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				18601FA82C581A0F008651D3 /* API.swift */,
 				18601FAA2C5835C7008651D3 /* UserViewModel.swift */,
 				18601FAC2C583600008651D3 /* UserService.swift */,
 				18601FAE2C5837A9008651D3 /* UserViewModelOutput.swift */,
@@ -161,6 +161,14 @@
 				18601F782C581896008651D3 /* ViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		18601FB12C583C8E008651D3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				18601FA82C581A0F008651D3 /* API.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

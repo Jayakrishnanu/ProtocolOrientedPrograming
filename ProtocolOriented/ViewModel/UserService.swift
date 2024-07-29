@@ -8,5 +8,5 @@
 import Foundation
 
 protocol UserService {
-    func fetchUsers(completionHandler: @escaping(Result<User, NetworkError>) -> Void)
+    func fetchUsers(completion: @escaping(Result<User, NetworkError>) -> Void)
 }

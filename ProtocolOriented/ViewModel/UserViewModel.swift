@@ -23,6 +23,7 @@ class UserViewModel {
                 self?.output?.updateView(user: user.name, email: user.email )
             case .failure(let error):
                 print(error.localizedDescription)
+                self?.output?.updateView(user: "No user", email: "" )
             }
         }
     }
