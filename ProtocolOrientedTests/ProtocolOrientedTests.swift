@@ -3,7 +3,7 @@
 //  ProtocolOrientedTests
 //
 //  Created by Jayakrishnan u on 7/29/24.
-//             
+//
 import XCTest
 @testable import ProtocolOriented
 
